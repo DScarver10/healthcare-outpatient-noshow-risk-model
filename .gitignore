@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Data artifacts
+Data/interim/*
+Data/processed/*
+!Data/interim/.gitkeep
+!Data/processed/.gitkeep
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+models/*.json
+
+# Generated reports
+reports/figures/*
+reports/tables/*
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
